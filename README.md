@@ -1,11 +1,19 @@
-- 👋 Hi, I’m @AIFATS
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+.spin{
+    transform-box:fill-box;
+    transform-origin:center;
+    animation:spin 7s infinite linear;
+}
+.spin-counter{
+    transform-box:fill-box;
+    transform-origin:center;
+    animation:spin-counter 7s infinite linear;
+}
+@keyframes spin{
+    0%{transform:rotate(0deg)}
+    100%{transform:rotate(359deg)}
+}
+@keyframes spin-counter{
+    0%{transform:rotate(0deg)}
+    100%{transform:rotate(-359deg)}
+}
 
-
-<!---
-AIFATS/AIFATS is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
